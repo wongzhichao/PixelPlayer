@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/11/27 22:38:42。
+     1>项目“D:\workspace\PixelPlayer\windows\PixelPlayer\PixelPlayer\PixelPlayer.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\PixelPlayer\windows\PixelPlayer\Win32\Debug\\PixelPlayer.exe" /NOLOGO /LIBPATH:.\lib /LIBPATH:D:\Qt\Qt5.6.2_x86\5.6\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace\PixelPlayer\windows\PixelPlayer\Win32\Debug\PixelPlayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace\PixelPlayer\windows\PixelPlayer\Win32\Debug\PixelPlayer.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\pixelplayer.obj
+         Debug\moc_pixelplayer.obj
+         Debug\qrc_pixelplayer.obj
+     1>pixelplayer.obj : error LNK2019: 无法解析的外部符号 _avcodec_configuration，该符号在函数 "public: __thiscall PixelPlayer::PixelPlayer(class QWidget *)" (??0PixelPlayer@@QAE@PAVQWidget@@@Z) 中被引用
+     1>D:\workspace\PixelPlayer\windows\PixelPlayer\Win32\Debug\\PixelPlayer.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“D:\workspace\PixelPlayer\windows\PixelPlayer\PixelPlayer\PixelPlayer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.31
